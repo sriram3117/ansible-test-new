@@ -1,0 +1,7 @@
+---
+# Create the resources
+- hosts: localhost
+  connection: local
+
+  roles:
+    - role: Instance_Launch
